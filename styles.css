@@ -1,0 +1,19 @@
+:root {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.output {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.double {
+  grid-column: span 2;
+}
